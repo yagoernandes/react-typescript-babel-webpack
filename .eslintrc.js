@@ -1,0 +1,31 @@
+module.exports = {
+  extends: ['airbnb-typescript-prettier'],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
+    project: 'tsconfig.json',
+    sourceType: 'module',
+    createDefaultProgram: true,
+  },
+  rules: {
+    // '@typescript-eslint/interface-name-prefix': 'warn',
+    // '@typescript-eslint/no-inferrable-types': 'off',
+    // '@typescript-eslint/member-ordering': 'off',
+    // '@typescript-eslint/no-use-before-define': 'off',
+    // '@typescript-eslint/no-floating-promises': 'warn',
+    // '@typescript-eslint/no-array-constructor': 'warn',
+    // '@typescript-eslint/no-var-requires': 'off',
+    // '@typescript-eslint/no-empty-function': 'warn',
+    // '@typescript-eslint/camelcase': 'warn',
+    // '@typescript-eslint/no-this-alias': 'warn',
+    // '@typescript-eslint/consistent-type-assertions': 'warn',
+    // '@typescript-eslint/ban-types': 'warn',
+    // '@typescript-eslint/no-namespace': 'off',
+    // '@typescript-eslint/quotes': 'off',
+    // '@typescript-eslint/semi': ['off', null],
+    // '@typescript-eslint/type-annotation-spacing': 'off',
+    // '@typescript-eslint/class-name-casing': 'warn',
+    // '@typescript-eslint/no-empty-interface': 'warn',
+    // '@typescript-eslint/no-explicit-any': 'off',
+  },
+};
